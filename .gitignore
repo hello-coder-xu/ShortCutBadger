@@ -1,0 +1,8 @@
+/build
+app/build/
+xRecyclerView/build/
+*.DS_Store
+*.iml
+*/4.1/
+*libraries/
+*workspace.xml
