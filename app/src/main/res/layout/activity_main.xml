@@ -16,4 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:text="add badger" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/removebadger"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="remove badger" />
 </LinearLayout>

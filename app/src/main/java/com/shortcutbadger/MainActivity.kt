@@ -27,5 +27,11 @@ class MainActivity : AppCompatActivity() {
             val success = ShortcutBadger.applyCount(this@MainActivity, number)
             Toast.makeText(this, "数字:$number 添加 $success", Toast.LENGTH_LONG).show()
         }
+
+        removebadger?.setOnClickListener {
+            val success = ShortcutBadger.removeCount(this@MainActivity)
+
+            Toast.makeText(applicationContext, "success=" + success, Toast.LENGTH_SHORT).show()
+        }
     }
 }
